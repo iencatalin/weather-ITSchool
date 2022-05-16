@@ -1,0 +1,88 @@
+/* Customizam Bootstrap */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #2bb686;
+  border-color: #2bb686;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #fbb44c !important;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.bg-primary {
+  background-color: #141e4c !important;
+}
+
+.bg-secondary {
+  background-color: #dfedf5 !important;
+}
+
+.bg-dark {
+  background-color: #101d42 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+/* Adaugam font-ul nostru */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Header */
+header {
+  height: 30vh;
+}
+
+/* Scroll Button */
+
+.scroll-to-top {
+  position: fixed;
+  right: 60px;
+  bottom: 50px;
+  padding: 10px;
+  background-color: #101d42;
+  border: none;
+  border-radius: 50%;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.material-symbols-outlined {
+  font-size: 38px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+.scroll-to-top:hover {
+  background-color: rgb(230, 230, 230); 
+  color: #101d42;
+}
+
+.material-symbols-outlined:hover{
+  color: #101d42;
+}
