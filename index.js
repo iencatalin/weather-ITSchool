@@ -6,9 +6,9 @@ const halfViewHeight = window.innerHeight / 2;
 
 document.addEventListener("scroll", () => {
   if (window.scrollY > halfViewHeight) {
-    scrollBtn.style.display = "block";
+    scrollBtn.style.visibility = "visible";
   } else {
-    scrollBtn.style.display = "none";
+    scrollBtn.style.visibility = "hidden";
   }
 });
 
