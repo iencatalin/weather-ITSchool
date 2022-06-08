@@ -39,6 +39,7 @@ h3 {
 /* Adaugam font-ul nostru */
 body {
   font-family: "Poppins", sans-serif;
+  
 }
 
 /* Layout */
@@ -61,15 +62,17 @@ header {
 /* Scroll Button */
 
 .scroll-to-top {
+  
   position: fixed;
   right: 60px;
   bottom: 50px;
   padding: 10px;
+  visibility: hidden;
   background-color: #101d42;
   border: none;
   border-radius: 50%;
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+  
 }
 .material-symbols-outlined {
   font-size: 38px;
@@ -77,12 +80,16 @@ header {
   display: flex;
   justify-content: center;
   
+  
 }
 .scroll-to-top:hover {
   background-color: rgb(230, 230, 230); 
   color: #101d42;
+  
 }
 
 .material-symbols-outlined:hover{
   color: #101d42;
+  
 }
+

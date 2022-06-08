@@ -1,4 +1,4 @@
-diplayCurrentWeather("București");
+// ------- Scroll Button -----
 
 const scrollBtn = document.querySelector(".scroll-to-top");
 
@@ -18,3 +18,16 @@ scrollBtn.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+// --------------------
+
+const currentCityElement = document.querySelector(".current-city");
+
+let currentCity = localStorage.getItem("city");
+
+if (!currentCity) {
+  localStorage.setItem("city", "București");
+  currentCity = "București";
+}
+
+updateWeather(currentCity);
